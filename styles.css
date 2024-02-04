@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    box-shadow: 0 8px 6px -6px green; /* Groenige neon schaduw */
+}
+
+.nav-logo img, .nav-image img {
+    height: 50px; /* Pas de hoogte aan naar uw voorkeur */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.nav-links li {
+    padding: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-shadow: 0 0 5px green; 
+}
+
+/* Bestaande stijlen */
+
+.header-content h1 {
+    text-align: center;
+    color: green; 
+}
+
+.header-content .research-question {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(249, 122, 143);
+    font-size: larger;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.content-box {
+    width: 40%; 
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-shadow: 0 0 10px green; 
+    overflow-y: auto;
+    height: 400px; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.content-box:hover {
+    transform: scale(1.1); 
+}
+
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-shadow: 0 0 8px green; 
+}
+
+.footer-bar {
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-item {
+    margin: 0 10px;
+}
+
+

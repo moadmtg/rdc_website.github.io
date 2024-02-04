@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    box-shadow: 0 8px 6px -6px green; 
+}
+
+.nav-logo img, .nav-image img {
+    height: 50px; 
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.nav-links li {
+    padding: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-shadow: 0 0 5px green; 
+}
+
+.footer-bar {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-item {
+    margin: 0 10px;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 10px;
+    margin-bottom: 16px; /* Ruimte toegevoegd voor de footer */
+}
+
+.overview-box {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position: relative; /* Positionering voor de knop */
+    overflow: hidden; /* Zorgt ervoor dat niets buiten de box valt */
+}
+
+.overview-box h2 {
+    margin-top: 0;
+}
+
+/* Knop stijl */
+.button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: -10px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    position: absolute; 
+    bottom: 20px;
+    right: 20px;
+}
+
+.button:hover {
+    background-color: darkgreen;
+}
+
+
+
+
+#method-overview ol {
+    padding-left: 20px;
+}
+
+#method-overview li {
+    margin-bottom: 10px;
+}
+
+#results-overview .image-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+}
+
+#results-overview .image-container {
+    position: relative;
+    width: 49%; 
+}
+
+#results-overview .image-container img {
+    width: 100%; 
+    display: block; 
+}
+
+#results-overview .image-container .zoom-icon {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    font-size: 24px;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#results-overview .read-more-container {
+    text-align: center; 
+}

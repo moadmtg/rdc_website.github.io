@@ -1,0 +1,115 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    box-shadow: 0 8px 6px -6px green;
+    z-index: 1;
+    position: relative;
+}
+
+.nav-logo img, .nav-image img {
+    height: 50px; 
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.nav-links li {
+    padding: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-shadow: 0 0 5px green; 
+}
+.content h1 {
+    text-align: center;
+}
+
+.content p {
+    margin-left: 320px;
+    margin-right: 320px;
+}
+
+.sidebar {
+    position: fixed;
+    right: 0;
+    top: 0px; 
+    width: 20%; 
+    height: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px; 
+    z-index: 0;
+}
+
+.sidebar div {
+    margin-bottom: 90px; 
+    margin-top: 30px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-left: 0; 
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+
+
+.sidebar_left {
+    position: fixed;
+    left: 0;
+    top: 0px;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(1, 116, 13);
+    color: white;
+    text-align: center;
+    z-index: 0;
+
+}
+
+
+.sidebar_left img {
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin-left: 90px;
+    margin-top: 80px;
+}
+
+
+
+
+.sidebar_left button {
+    background-color: pink;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px; 
+}
+
+
+.sidebar_left.apple {
+    background-color: pink;
+}
+
+
+.sidebar_left.spotify {
+    background-color: green;
+}
